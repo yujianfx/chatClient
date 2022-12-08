@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <external-files-path path="/download" name="download"/>
+    <!--物理路径相当于Context.getFilesDir() + /path/-->
+    <files-path name="name" path="path"/>
+
+    <!--物理路径相当于Context.getCacheDir() + /path/-->
+    <cache-path name="name" path="path"/>
+    <!-- 物理路径相当于Environment.getExternalStorageDirectory() + /path/-->
+    <external-path name="name" path="path"/>
+    <!-- 物理路径相当于Context.getExternalFilesDir(String) + /path/-->
+    <external-files-path name="name" path="path"/>
+    <!-- 物理路径相当于Context.getExternalCacheDir() + /path/-->
+    <external-cache-path name="name" path="path"/>
+</resources>

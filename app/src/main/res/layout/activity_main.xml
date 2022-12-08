@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView android:layout_gravity="center" android:layout_width="400dp" android:layout_height="600dp"
+                android:id="@+id/scrollView">
+
+        <LinearLayout android:id="@+id/linearInScroll" android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+            <top.wangudiercai.view.ChatListView android:id="@+id/listView" android:layout_width="match_parent"
+                                                android:layout_height="match_parent"></top.wangudiercai.view.ChatListView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout android:layout_width="400dp" android:layout_height="45dp" android:layout_gravity="center"
+                  android:orientation="horizontal">
+        <EditText android:layout_width="320dp" android:layout_height="40dp" android:background="#CCC6C6"
+                  android:id="@+id/editText"/>
+        <Button android:layout_width="60dp" android:layout_height="40dp" android:id="@+id/button"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"
+                android:text="send"/>
+    </LinearLayout>
+
+
+</LinearLayout>
